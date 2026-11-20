@@ -607,12 +607,24 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -678,7 +690,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#PWR5-12,C2-23,F1,J1,L1-2,Q1,R3-8,RT2,SW1,TH1,U2",
+    "used_designators": "#FLG1-5,#PWR5-40,C2-34,D1,F1,J1,J3,J6,L1-2,Q1,Q3,R3-23,R26,R28-32,RT2,SW1,TH1,TP1,U2",
     "variants": []
   },
   "sheets": [
