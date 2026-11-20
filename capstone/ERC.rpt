@@ -1,16 +1,19 @@
-ERC report (2026-11-20T10:33:37, Encoding UTF8)
+ERC report (2026-11-20T11:03:58, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(5600 mils, 1500 mils): Symbol U1 Pin 7 [BOOT, Power input, Line]
+    @(5250 mils, 1700 mils): Symbol U1 Pin 1 [EN, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(5600 mils, 1800 mils): Symbol U1 Pin 6 [SW, Power input, Line]
+    @(6650 mils, 1500 mils): Symbol U1 Pin 7 [BOOT, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(5600 mils, 2200 mils): Symbol U1 Pin 2 [FB, Power input, Line]
+    @(6650 mils, 1800 mils): Symbol U1 Pin 6 [SW, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(6650 mils, 2200 mils): Symbol U1 Pin 2 [FB, Power input, Line]
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
     @(14750 mils, 1150 mils): Symbol Q1 Pin 4 [G, Input, Line]
@@ -74,7 +77,7 @@ Report includes: Errors, Warnings, Exclusions
     @(14450 mils, 2350 mils): Symbol U3 Pin 7 [ADCIN4, Unspecified, Line]
     @(13850 mils, 5300 mils): Symbol R21 Pin 2 [Passive, Line]
 
- ** ERC messages: 20  Errors 5  Warnings 15
+ ** ERC messages: 21  Errors 6  Warnings 15
 
  ** Ignored checks:
     - Global label only appears once in the schematic
