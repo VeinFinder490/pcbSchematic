@@ -1,4 +1,4 @@
-ERC report (2026-11-22T14:35:39, Encoding UTF8)
+ERC report (2026-11-22T17:24:31, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
@@ -22,16 +22,10 @@ Report includes: Errors, Warnings, Exclusions
     @(15400 mils, 1500 mils): Symbol Q3 Pin 4 [G, Input, Line]
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(800 mils, 3100 mils): Label 'GPIO26'
-[lib_symbol_mismatch]: Symbol 'C_Small' doesn't match copy in library 'Device'
-    ; warning
-    @(2600 mils, 10500 mils): Symbol C35 [C_Small]
+    @(900 mils, 3350 mils): Label 'GPIO26'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
-    @(3500 mils, 2300 mils): Label 'GPIO25'
-[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'
-    ; warning
-    @(3750 mils, 10600 mils): Symbol JP1 [SolderJumper_2_Open]
+    @(3600 mils, 2550 mils): Label 'GPIO25'
 [pin_to_pin]: Pins of type Unspecified and Passive are connected
     ; warning
     @(12550 mils, 2200 mils): Symbol U3 Pin 1 [LDO_3V3, Unspecified, Line]
@@ -77,7 +71,7 @@ Report includes: Errors, Warnings, Exclusions
     @(14450 mils, 2700 mils): Symbol U3 Pin 7 [ADCIN4, Unspecified, Line]
     @(13850 mils, 5650 mils): Symbol R21 Pin 2 [Passive, Line]
 
- ** ERC messages: 21  Errors 6  Warnings 15
+ ** ERC messages: 19  Errors 6  Warnings 13
 
  ** Ignored checks:
     - Global label only appears once in the schematic
