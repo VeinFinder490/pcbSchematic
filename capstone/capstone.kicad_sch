@@ -25842,7 +25842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 181.61 186.69 0)
 			(hide yes)
 			(show_name no)
