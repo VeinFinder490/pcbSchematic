@@ -742,7 +742,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 142.24 168.91 270)
+		(at 142.24 168.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -753,25 +753,25 @@
 		(fields_autoplaced yes)
 		(uuid "2bd26a8c-aabe-4b26-bc85-40b20249cefa")
 		(property "Reference" "D2"
-			(at 145.415 166.0524 90)
+			(at 146.05 169.2274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SFH 4554"
-			(at 145.415 168.5924 90)
+			(at 146.05 171.7674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
@@ -835,7 +835,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 160.02 179.07 270)
+		(at 160.02 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -846,25 +846,25 @@
 		(fields_autoplaced yes)
 		(uuid "4478ebed-d253-4bb9-a377-c6293e9583f8")
 		(property "Reference" "D6"
-			(at 163.195 176.2124 90)
+			(at 163.83 179.3874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SFH 4554"
-			(at 163.195 178.7524 90)
+			(at 163.83 181.9274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
@@ -928,7 +928,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 160.02 158.75 270)
+		(at 160.02 158.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -939,25 +939,25 @@
 		(fields_autoplaced yes)
 		(uuid "4c816113-88b9-434c-8b29-aef046824820")
 		(property "Reference" "D4"
-			(at 163.195 155.8924 90)
+			(at 163.83 159.0674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SFH 4554"
-			(at 163.195 158.4324 90)
+			(at 163.83 161.6074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
@@ -1021,7 +1021,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 160.02 168.91 270)
+		(at 160.02 168.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1032,25 +1032,25 @@
 		(fields_autoplaced yes)
 		(uuid "95053956-ee36-4517-a60d-b78c95fb39e1")
 		(property "Reference" "D5"
-			(at 163.195 166.0524 90)
+			(at 163.83 169.2274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SFH 4554"
-			(at 163.195 168.5924 90)
+			(at 163.83 171.7674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
@@ -1114,7 +1114,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 142.24 179.07 270)
+		(at 142.24 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1125,25 +1125,25 @@
 		(fields_autoplaced yes)
 		(uuid "9caf9d62-af22-4acd-9ecd-d2cd0e3e12e9")
 		(property "Reference" "D3"
-			(at 145.415 176.2124 90)
+			(at 146.05 179.3874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SFH 4554"
-			(at 145.415 178.7524 90)
+			(at 146.05 181.9274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
@@ -1511,7 +1511,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 142.24 158.75 270)
+		(at 142.24 158.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1522,7 +1522,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffae5135-f642-466e-88bf-7b3332c242c5")
 		(property "Reference" "D1"
-			(at 145.415 155.8924 90)
+			(at 139.065 161.6076 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1533,7 +1533,7 @@
 			)
 		)
 		(property "Value" "SFH 4554"
-			(at 145.415 158.4324 90)
+			(at 139.065 159.0676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
