@@ -960,6 +960,362 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CSD17577Q3A_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CSD17577Q3A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd17577q3a.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "35A Id, 30V Vds, NexFET N-Channel Power MOSFET, 4.0mOhm Ron, Qg Typ 12nC, VSON-8 3.3x3.3mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NexFET Power MOSFET N-MOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "VSON*3.3x3.3mm*P0.65mm*NexFET*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CSD17577Q3A_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CSD17577Q3A_1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -6558,6 +6914,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -8792,7 +9288,7 @@
 	)
 	(text "NIR LED Driver"
 		(exclude_from_sim no)
-		(at 241.3 187.96 0)
+		(at 266.7 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8832,7 +9328,7 @@
 	)
 	(text "J5 will be changed \nif Battery choice is changed"
 		(exclude_from_sim no)
-		(at 193.04 206.756 0)
+		(at 166.37 232.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8893,7 +9389,7 @@
 	)
 	(text "RT1 might get changed \nif Battery choice is changed"
 		(exclude_from_sim no)
-		(at 137.414 182.372 0)
+		(at 167.894 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9009,7 +9505,7 @@
 		(uuid "1e14f650-aa1d-4082-b9f7-a133254b9154")
 	)
 	(junction
-		(at 231.14 256.54)
+		(at 256.54 254)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2020c6c0-adf1-494f-93f3-4484e4c1341d")
@@ -9117,7 +9613,7 @@
 		(uuid "4d183838-2d5e-4c51-adc5-73a4d4c8e4af")
 	)
 	(junction
-		(at 241.3 267.97)
+		(at 266.7 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ea1210d-ff4c-4837-bd25-2e602cadfca9")
@@ -9327,7 +9823,7 @@
 		(uuid "9340c285-5767-42d5-8b6d-63fe2a40ddf3")
 	)
 	(junction
-		(at 241.3 247.65)
+		(at 266.7 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "940e4a75-2c96-49d2-86db-f7c0c1a11b49")
@@ -9701,7 +10197,7 @@
 		(uuid "39db5b4b-04ed-4614-8c0f-0893a668e428")
 	)
 	(no_connect
-		(at 247.65 246.38)
+		(at 273.05 243.84)
 		(uuid "3cfaa692-252e-43bf-b9ba-7dfd0e4a5546")
 	)
 	(no_connect
@@ -9717,10 +10213,6 @@
 		(uuid "4aae9d30-5df6-42c7-87d6-12fe1120ec98")
 	)
 	(no_connect
-		(at 157.48 134.62)
-		(uuid "4d4c4886-f2aa-49cb-a693-70713417e146")
-	)
-	(no_connect
 		(at 40.64 193.04)
 		(uuid "507bd79a-995a-4649-a0ed-c25476fc855b")
 	)
@@ -9731,10 +10223,6 @@
 	(no_connect
 		(at 40.64 215.9)
 		(uuid "55266a68-5cd3-451f-815e-4770962fe28f")
-	)
-	(no_connect
-		(at 157.48 137.16)
-		(uuid "5e2b7cc7-5370-4f29-8a8b-3e5245e8fa40")
 	)
 	(no_connect
 		(at 95.25 190.5)
@@ -9749,7 +10237,7 @@
 		(uuid "714efd57-f46a-4e62-907a-80fcf0040a8d")
 	)
 	(no_connect
-		(at 227.33 246.38)
+		(at 252.73 243.84)
 		(uuid "790964a1-6971-485d-b857-40f1c0e28b13")
 	)
 	(no_connect
@@ -9950,7 +10438,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 247.65) (xy 252.73 247.65)
+			(xy 266.7 245.11) (xy 278.13 245.11)
 		)
 		(stroke
 			(width 0)
@@ -9990,7 +10478,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 199.39) (xy 238.76 203.2)
+			(xy 264.16 196.85) (xy 264.16 200.66)
 		)
 		(stroke
 			(width 0)
@@ -10370,7 +10858,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 267.97) (xy 241.3 267.97)
+			(xy 256.54 265.43) (xy 266.7 265.43)
 		)
 		(stroke
 			(width 0)
@@ -10430,7 +10918,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 203.2) (xy 238.76 203.2)
+			(xy 254 200.66) (xy 264.16 200.66)
 		)
 		(stroke
 			(width 0)
@@ -10507,6 +10995,16 @@
 			(type default)
 		)
 		(uuid "277a7f77-654a-46a5-a4e8-c44da250b001")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 157.48 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ecf312-376e-4cc7-a0d5-2a18145f8ba9")
 	)
 	(wire
 		(pts
@@ -10650,7 +11148,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 256.54) (xy 231.14 256.54)
+			(xy 255.27 254) (xy 256.54 254)
 		)
 		(stroke
 			(width 0)
@@ -11030,7 +11528,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 247.65) (xy 232.41 246.38)
+			(xy 257.81 245.11) (xy 257.81 243.84)
 		)
 		(stroke
 			(width 0)
@@ -11080,7 +11578,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 205.74) (xy 243.84 205.74)
+			(xy 278.13 203.2) (xy 269.24 203.2)
 		)
 		(stroke
 			(width 0)
@@ -11240,7 +11738,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 273.05) (xy 241.3 267.97)
+			(xy 266.7 270.51) (xy 266.7 265.43)
 		)
 		(stroke
 			(width 0)
@@ -11480,7 +11978,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 247.65) (xy 241.3 247.65)
+			(xy 257.81 245.11) (xy 266.7 245.11)
 		)
 		(stroke
 			(width 0)
@@ -12110,7 +12608,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 256.54) (xy 231.14 260.35)
+			(xy 256.54 254) (xy 256.54 257.81)
 		)
 		(stroke
 			(width 0)
@@ -12190,7 +12688,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 246.38) (xy 252.73 247.65)
+			(xy 278.13 243.84) (xy 278.13 245.11)
 		)
 		(stroke
 			(width 0)
@@ -12650,7 +13148,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 205.74) (xy 241.3 199.39)
+			(xy 266.7 203.2) (xy 266.7 196.85)
 		)
 		(stroke
 			(width 0)
@@ -12770,7 +13268,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 267.97) (xy 241.3 261.62)
+			(xy 266.7 265.43) (xy 266.7 259.08)
 		)
 		(stroke
 			(width 0)
@@ -12790,7 +13288,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 205.74) (xy 241.3 205.74)
+			(xy 257.81 203.2) (xy 266.7 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13150,7 +13648,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 256.54) (xy 222.25 256.54)
+			(xy 231.14 254) (xy 247.65 254)
 		)
 		(stroke
 			(width 0)
@@ -13300,7 +13798,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 205.74) (xy 243.84 199.39)
+			(xy 269.24 203.2) (xy 269.24 196.85)
 		)
 		(stroke
 			(width 0)
@@ -13530,7 +14028,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 256.54) (xy 233.68 256.54)
+			(xy 256.54 254) (xy 259.08 254)
 		)
 		(stroke
 			(width 0)
@@ -13580,7 +14078,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 251.46) (xy 241.3 247.65)
+			(xy 266.7 248.92) (xy 266.7 245.11)
 		)
 		(stroke
 			(width 0)
@@ -14209,7 +14707,7 @@
 		(uuid "29d046c2-f681-4254-89b3-1ec3aa495433")
 	)
 	(label "VSYS"
-		(at 228.6 203.2 0)
+		(at 254 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14768,7 +15266,7 @@
 		)
 		(uuid "b5a051ad-9e6f-4332-ba65-a63e4c529503")
 	)
-	(label "GPIO20"
+	(label "DLP_INIT_DONE"
 		(at 91.44 85.09 180)
 		(effects
 			(font
@@ -14899,7 +15397,7 @@
 		(uuid "d5141dfe-7772-4abe-8900-b81fb6d6762f")
 	)
 	(label "GPIO27"
-		(at 205.74 256.54 0)
+		(at 231.14 254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15721,7 +16219,7 @@
 	)
 	(symbol
 		(lib_id "NSI45090:NSI45090JDT4G")
-		(at 250.19 226.06 270)
+		(at 275.59 223.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15731,7 +16229,7 @@
 		(dnp no)
 		(uuid "052218bd-d001-4068-b968-fa963df7f382")
 		(property "Reference" "U7"
-			(at 249.682 224.79 90)
+			(at 275.082 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15742,7 +16240,7 @@
 			)
 		)
 		(property "Value" "NSI45090JDT4G"
-			(at 249.682 227.33 90)
+			(at 275.082 224.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15753,7 +16251,7 @@
 			)
 		)
 		(property "Footprint" "NSI45090_fp:IC_NSI45090JDT4G"
-			(at 250.19 226.06 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15765,7 +16263,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NSI45090JD-D.PDF"
-			(at 250.19 226.06 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15777,7 +16275,7 @@
 			)
 		)
 		(property "Description" "LED Driver, Adjustable Constant Current Regulator, 45 V, 90 - 160 mA"
-			(at 250.19 226.06 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15789,7 +16287,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "https://www.onsemi.com/pub/Collateral/NSI45090JD-D.PDF"
-			(at 250.19 226.06 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15801,7 +16299,7 @@
 			)
 		)
 		(property "MANUFACTURER" "onsemi"
-			(at 250.19 226.06 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15813,7 +16311,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.38mm"
-			(at 250.19 226.06 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15825,7 +16323,7 @@
 			)
 		)
 		(property "MPN" "NSI45090JDT4G"
-			(at 250.19 226.06 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15837,7 +16335,7 @@
 			)
 		)
 		(property "PARTREV" "3"
-			(at 250.19 226.06 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15849,7 +16347,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/NSI45090JDT4G/Onsemi/view-part/"
-			(at 250.19 226.06 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15861,7 +16359,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 250.19 226.06 0)
+			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18096,7 +18594,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 231.14 264.16 0)
+		(at 256.54 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18107,7 +18605,7 @@
 		(fields_autoplaced yes)
 		(uuid "360e08d3-337e-4ba6-912b-f3f08b564e6f")
 		(property "Reference" "R34"
-			(at 233.68 262.8899 0)
+			(at 259.08 260.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18118,7 +18616,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 233.68 265.4299 0)
+			(at 259.08 262.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18129,7 +18627,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 229.362 264.16 90)
+			(at 254.762 261.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18140,7 +18638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 264.16 0)
+			(at 256.54 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18151,7 +18649,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 231.14 264.16 0)
+			(at 256.54 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18983,7 +19481,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 241.3 194.31 90)
+		(at 266.7 191.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18994,7 +19492,7 @@
 		(fields_autoplaced yes)
 		(uuid "48f5a30e-bb55-4b0a-80dc-40e30334e60b")
 		(property "Reference" "J9"
-			(at 246.38 193.0399 90)
+			(at 271.78 190.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19005,7 +19503,7 @@
 			)
 		)
 		(property "Value" "NIR_LED"
-			(at 246.38 195.5799 90)
+			(at 271.78 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19016,7 +19514,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
-			(at 241.3 194.31 0)
+			(at 266.7 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19027,7 +19525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 194.31 0)
+			(at 266.7 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19038,7 +19536,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 241.3 194.31 0)
+			(at 266.7 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20196,6 +20694,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 167.64 190.5 90)
 		(unit 1)
@@ -20758,7 +21257,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 238.76 256.54 0)
+		(at 264.16 254 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20769,7 +21268,7 @@
 		(fields_autoplaced yes)
 		(uuid "69021ce3-e476-45c3-8936-dd3f518fa83b")
 		(property "Reference" "Q4"
-			(at 245.11 255.2699 0)
+			(at 270.51 252.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20780,7 +21279,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 245.11 257.8099 0)
+			(at 270.51 255.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20791,7 +21290,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 243.84 258.445 0)
+			(at 269.24 255.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20804,7 +21303,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 243.84 260.35 0)
+			(at 269.24 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20816,7 +21315,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 238.76 256.54 0)
+			(at 264.16 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22866,7 +23365,7 @@
 	)
 	(symbol
 		(lib_id "NSI45090:NSI45090JDT4G")
-		(at 229.87 226.06 270)
+		(at 255.27 223.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22876,7 +23375,7 @@
 		(dnp no)
 		(uuid "ab3badad-d875-4d6c-aa12-f246178b135f")
 		(property "Reference" "U6"
-			(at 229.616 224.536 90)
+			(at 255.016 221.996 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22887,7 +23386,7 @@
 			)
 		)
 		(property "Value" "NSI45090JDT4G"
-			(at 229.616 227.076 90)
+			(at 255.016 224.536 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22898,7 +23397,7 @@
 			)
 		)
 		(property "Footprint" "NSI45090_fp:IC_NSI45090JDT4G"
-			(at 229.87 226.06 0)
+			(at 255.27 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22910,7 +23409,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NSI45090JD-D.PDF"
-			(at 229.87 226.06 0)
+			(at 255.27 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22922,7 +23421,7 @@
 			)
 		)
 		(property "Description" "LED Driver, Adjustable Constant Current Regulator, 45 V, 90 - 160 mA"
-			(at 229.87 226.06 0)
+			(at 255.27 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22934,7 +23433,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "https://www.onsemi.com/pub/Collateral/NSI45090JD-D.PDF"
-			(at 229.87 226.06 0)
+			(at 255.27 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22946,7 +23445,7 @@
 			)
 		)
 		(property "MANUFACTURER" "onsemi"
-			(at 229.87 226.06 0)
+			(at 255.27 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22958,7 +23457,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.38mm"
-			(at 229.87 226.06 0)
+			(at 255.27 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22970,7 +23469,7 @@
 			)
 		)
 		(property "MPN" "NSI45090JDT4G"
-			(at 229.87 226.06 0)
+			(at 255.27 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22982,7 +23481,7 @@
 			)
 		)
 		(property "PARTREV" "3"
-			(at 229.87 226.06 0)
+			(at 255.27 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22994,7 +23493,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/NSI45090JDT4G/Onsemi/view-part/"
-			(at 229.87 226.06 0)
+			(at 255.27 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23006,7 +23505,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 229.87 226.06 0)
+			(at 255.27 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25344,7 +25843,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 273.05 0)
+		(at 266.7 270.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25355,7 +25854,7 @@
 		(fields_autoplaced yes)
 		(uuid "dab944fc-e3a5-4c19-914e-ee96ba8db176")
 		(property "Reference" "#PWR037"
-			(at 241.3 279.4 0)
+			(at 266.7 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25366,7 +25865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 278.13 0)
+			(at 266.7 275.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25376,7 +25875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 273.05 0)
+			(at 266.7 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25387,7 +25886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 273.05 0)
+			(at 266.7 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25398,7 +25897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 273.05 0)
+			(at 266.7 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25502,6 +26001,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CSD17577Q3A_1")
 		(lib_id "Transistor_FET:CSD17577Q3A")
 		(at 186.69 184.15 180)
 		(unit 1)
@@ -27109,7 +27609,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 256.54 90)
+		(at 251.46 254 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27120,7 +27620,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6efca0b-cb9a-45e0-a005-1e5429b4ed9e")
 		(property "Reference" "R33"
-			(at 226.06 250.19 90)
+			(at 251.46 247.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27130,7 +27630,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 226.06 252.73 90)
+			(at 251.46 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27140,7 +27640,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 226.06 258.318 90)
+			(at 251.46 255.778 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27151,7 +27651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 256.54 0)
+			(at 251.46 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27162,7 +27662,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 226.06 256.54 0)
+			(at 251.46 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

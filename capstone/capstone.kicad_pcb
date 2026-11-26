@@ -3071,7 +3071,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "337224ae-e4ee-42be-9b5b-2082d0ca365d")
-		(at 85.32 154.095 90)
+		(at 98.96 154.095 90)
 		(descr "Through hole straight pin header, 2x23, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x23 2.54mm double row")
 		(property "Reference" "J7"
@@ -17997,7 +17997,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "e77c0a82-86b2-4215-833e-c235d562a0ad")
-		(at 85.32 105.835 90)
+		(at 98.96 105.835 90)
 		(descr "Through hole straight pin header, 2x23, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x23 2.54mm double row")
 		(property "Reference" "J3"
