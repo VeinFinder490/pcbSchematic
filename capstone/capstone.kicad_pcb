@@ -1185,14 +1185,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "0fab067c-0a5d-4898-b337-66e45a2763e0")
 		(at 41.3 93.22)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "e6f68191-3a15-41ba-a6b5-18fab8d36870")
 			(effects
@@ -1203,7 +1203,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "e1b24db5-522a-4e66-a9c4-8822f9d923f6")
 			(effects
@@ -1260,18 +1260,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "411a28a7-f869-41aa-9d80-84eb76f79b9f")
-		)
-		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1279,9 +1269,19 @@
 			(layer "F.SilkS")
 			(uuid "7e9e865c-feaa-4f35-947b-b0365385308b")
 		)
+		(fp_line
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "411a28a7-f869-41aa-9d80-84eb76f79b9f")
+		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1291,8 +1291,8 @@
 			(uuid "9d8f874f-9e52-49d4-8330-9553606f3417")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1314,7 +1314,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "/VSYS")
@@ -1323,7 +1323,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -1331,7 +1331,7 @@
 			(uuid "46ccd0d5-5f76-470d-9ad3-699592839217")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1343,14 +1343,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "1ca2bb5e-0098-4218-b203-5b1835f25746")
 		(at 46.95 86.52)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C22"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "776a3781-6ec8-4615-839f-603d8d01d045")
 			(effects
@@ -1361,7 +1361,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "d57f5c34-dca4-4b52-a3cb-f2fdbb8284ea")
 			(effects
@@ -1418,18 +1418,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fe648b11-6d34-4331-9409-086a3ca113e7")
-		)
-		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1437,9 +1427,19 @@
 			(layer "F.SilkS")
 			(uuid "b9c7538e-0eef-473d-9930-ec56f2a2d0eb")
 		)
+		(fp_line
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fe648b11-6d34-4331-9409-086a3ca113e7")
+		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1449,8 +1449,8 @@
 			(uuid "b53962f8-a50f-4ae4-9004-f82571e4424a")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1472,7 +1472,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "Net-(C22-Pad1)")
@@ -1481,7 +1481,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -1489,7 +1489,7 @@
 			(uuid "3af162c1-a415-4d41-9163-7de70317ad35")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1501,14 +1501,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "2162024e-6ddb-4163-b8a2-ec8ea3294a83")
 		(at 125 66.17)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "c3a6b5f1-5867-484d-bad3-9c3ac4640c90")
 			(effects
@@ -1519,7 +1519,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "ab041082-7ec7-4a8d-89ba-1cd8da79d75d")
 			(effects
@@ -1576,18 +1576,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1a98da4b-d68c-4732-ab32-60c8e5b7b524")
-		)
-		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1595,9 +1585,19 @@
 			(layer "F.SilkS")
 			(uuid "4d74bf42-9fcd-47a9-866b-cc2c7ecc6c14")
 		)
+		(fp_line
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1a98da4b-d68c-4732-ab32-60c8e5b7b524")
+		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1607,8 +1607,8 @@
 			(uuid "7dae8d3f-9846-4e1e-bca4-f02688e344d2")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1630,7 +1630,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "+5V")
@@ -1639,7 +1639,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -1647,7 +1647,7 @@
 			(uuid "08a7c98b-324c-45c4-a6cd-77036cb8b5d7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2435,14 +2435,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "2e2923d5-c513-4218-9042-0b4101ebc313")
 		(at 46.95 83.17)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C20"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "eac30b7d-9d28-41b9-af4c-ce5af5b6c5de")
 			(effects
@@ -2453,7 +2453,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "769b4b57-8345-419e-87de-7e49b55450ab")
 			(effects
@@ -2510,18 +2510,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6f6258c5-2814-4780-a8ac-4f885e76c1a5")
-		)
-		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2529,9 +2519,19 @@
 			(layer "F.SilkS")
 			(uuid "e571a525-a286-4d37-beab-e59f03c5ab35")
 		)
+		(fp_line
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6f6258c5-2814-4780-a8ac-4f885e76c1a5")
+		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2541,8 +2541,8 @@
 			(uuid "b76a852c-fc50-4cd1-9ce4-fd9bed1cb190")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -2564,7 +2564,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "/VSYS")
@@ -2573,7 +2573,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -2581,7 +2581,7 @@
 			(uuid "777a4e11-1344-420d-894e-ab3309782762")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4133,14 +4133,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "46768ba6-160b-489f-8260-63f2cb741cc4")
 		(at 51.3 40.05)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C31"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "78bbd541-b263-47e9-9e06-7710140ba7a4")
 			(effects
@@ -4151,7 +4151,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "07dae82f-c3b7-403b-807c-9858de6ffa50")
 			(effects
@@ -4208,8 +4208,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4218,8 +4218,8 @@
 			(uuid "bdfe2538-4f56-495e-b475-2405865decb7")
 		)
 		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4228,8 +4228,8 @@
 			(uuid "fa485489-6b18-4255-8868-7c1304548683")
 		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4239,8 +4239,8 @@
 			(uuid "8fdb418b-5063-45c4-a848-e5706ffec2e1")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -4262,7 +4262,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -4271,7 +4271,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "+3V3")
@@ -4279,7 +4279,7 @@
 			(uuid "aac7b664-5834-4799-b11b-603e9ff750d9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5487,14 +5487,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "51c9fd3f-8e0a-46f5-abe4-a3b6680c3f23")
 		(at 35.65 93.22)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "0eacb3a4-910e-4659-b856-ed58ed43596c")
 			(effects
@@ -5505,7 +5505,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "9f82b099-262a-4f5d-8d96-7798033aa2fc")
 			(effects
@@ -5562,8 +5562,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5572,8 +5572,8 @@
 			(uuid "4f7cbf86-7dc9-40d4-a19e-fe90ad79cfe5")
 		)
 		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5582,8 +5582,8 @@
 			(uuid "cc2722ff-ae07-4042-96ce-54dcf90c0a99")
 		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5593,8 +5593,8 @@
 			(uuid "e9018cb5-3842-4b47-b568-e1233af10208")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -5616,7 +5616,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "Net-(U4-PMID)")
@@ -5625,7 +5625,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -5633,7 +5633,7 @@
 			(uuid "bf272e94-1cde-40d3-bdb3-15d5eb47c3bf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5662,7 +5662,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "6.8uF"
 			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "3c0811a0-784e-4229-b220-577068642aa8")
@@ -6277,14 +6277,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "5cc5891d-c1bf-4b08-b184-220dca0db879")
 		(at 46.95 89.87)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "51e3d2de-76bd-4cea-80a6-c63b460c4bb7")
 			(effects
@@ -6295,7 +6295,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "78b1d25f-7dfb-4b78-bcb5-354604b679fa")
 			(effects
@@ -6352,18 +6352,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5d8cd4a0-1626-4cdc-9949-274d9b3c5198")
-		)
-		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6371,9 +6361,19 @@
 			(layer "F.SilkS")
 			(uuid "6e55243f-720b-4ad0-bcf5-56098963a3f5")
 		)
+		(fp_line
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5d8cd4a0-1626-4cdc-9949-274d9b3c5198")
+		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -6383,8 +6383,8 @@
 			(uuid "2cc70695-8b11-49f1-8e12-851ccd30870b")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -6406,7 +6406,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "Net-(C22-Pad1)")
@@ -6415,7 +6415,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -6423,7 +6423,7 @@
 			(uuid "20185300-41ff-4cb6-a052-64e37a247241")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6615,14 +6615,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "5f1a39e0-3057-4e28-ab32-09612416c52e")
 		(at 51.3 43.4)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "4c5b61a6-33cc-49a2-bd87-5dd8df741eb3")
 			(effects
@@ -6633,7 +6633,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "37f601eb-34e7-48ab-a1c9-90bdc5b8fe00")
 			(effects
@@ -6690,18 +6690,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "068f0841-afc1-4abd-9ccc-3d918102f54a")
-		)
-		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6709,9 +6699,19 @@
 			(layer "F.SilkS")
 			(uuid "416f5204-aee5-4626-a0af-0d2aad877cdb")
 		)
+		(fp_line
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "068f0841-afc1-4abd-9ccc-3d918102f54a")
+		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -6721,8 +6721,8 @@
 			(uuid "bc708abb-c6f5-4b38-879f-860e8bbd814a")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -6744,7 +6744,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -6753,7 +6753,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "/LDO_3V3")
@@ -6761,7 +6761,7 @@
 			(uuid "0a8ab46e-2919-4158-9845-7a963a30d5dc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7473,14 +7473,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1210_3225Metric"
+	(footprint "Capacitor_SMD:C_2220_5750Metric"
 		(layer "F.Cu")
 		(uuid "673a4c89-fcc9-4e4b-9873-f7512083171a")
 		(at 38.93 57.81)
-		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 2220 (5750 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C34"
-			(at 0 -2.3 0)
+			(at 0 -3.65 0)
 			(layer "F.SilkS")
 			(uuid "a87257a2-74c4-4337-b3dd-faf07572911e")
 			(effects
@@ -7490,8 +7490,8 @@
 				)
 			)
 		)
-		(property "Value" "47uF"
-			(at 0 2.3 0)
+		(property "Value" "22uF"
+			(at 0 3.65 0)
 			(layer "F.Fab")
 			(uuid "2cef2d26-e733-403d-bb7f-9e9c9b544179")
 			(effects
@@ -7548,18 +7548,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -1.36)
-			(end 0.711252 -1.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "88db7758-a21b-46bf-ba64-69dd763b8b82")
-		)
-		(fp_line
-			(start -0.711252 1.36)
-			(end 0.711252 1.36)
+			(start -1.415748 -2.61)
+			(end 1.415748 -2.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -7567,9 +7557,19 @@
 			(layer "F.SilkS")
 			(uuid "2318f050-2cac-4f91-a033-c4251a1cb39b")
 		)
+		(fp_line
+			(start -1.415748 2.61)
+			(end 1.415748 2.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "88db7758-a21b-46bf-ba64-69dd763b8b82")
+		)
 		(fp_rect
-			(start -2.3 -1.6)
-			(end 2.3 1.6)
+			(start -3.7 -2.95)
+			(end 3.7 2.95)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -7579,8 +7579,8 @@
 			(uuid "8105a9c3-87f6-4323-bec2-73164b5268d7")
 		)
 		(fp_rect
-			(start -1.6 -1.25)
-			(end 1.6 1.25)
+			(start -2.85 -2.5)
+			(end 2.85 2.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -7595,31 +7595,31 @@
 			(uuid "3316e462-4c63-4f9f-9cc9-5da28c81b600")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.475 0)
-			(size 1.15 2.7)
+			(at -2.55 0)
+			(size 1.8 5.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.217391)
+			(roundrect_rratio 0.138889)
 			(net "/CHG_IN")
 			(pintype "passive")
 			(uuid "9bd63512-2a4f-48f3-af13-651850ac8d2e")
 		)
 		(pad "2" smd roundrect
-			(at 1.475 0)
-			(size 1.15 2.7)
+			(at 2.55 0)
+			(size 1.8 5.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.217391)
+			(roundrect_rratio 0.138889)
 			(net "GND")
 			(pintype "passive")
 			(uuid "b2599b0c-a52b-4739-827c-d3888b6fe656")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2220_5750Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10042,14 +10042,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "8a3106a1-945d-4dc5-9cec-6b68bf675203")
 		(at 35.65 96.57)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "2a5b986e-183b-4286-b2ee-2676ec835368")
 			(effects
@@ -10060,7 +10060,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "383bf5a7-ac51-42a5-8c51-016f106d825b")
 			(effects
@@ -10117,18 +10117,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f61ef669-531f-4ce7-9001-519eed26f876")
-		)
-		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10136,9 +10126,19 @@
 			(layer "F.SilkS")
 			(uuid "4b3779a5-9b09-4720-a703-df838ea382e0")
 		)
+		(fp_line
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f61ef669-531f-4ce7-9001-519eed26f876")
+		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -10148,8 +10148,8 @@
 			(uuid "7ed3ade6-57d7-411d-a771-5c976fd94459")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -10171,7 +10171,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "/CHG_IN")
@@ -10180,7 +10180,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -10188,7 +10188,7 @@
 			(uuid "e4cab75a-4d97-4450-882d-748e70dc33f6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10875,14 +10875,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "90be7d20-b474-4624-8ef3-26d12358e880")
 		(at 41.3 96.57)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "3adeb35c-8543-442d-a023-9746b6a2cfd1")
 			(effects
@@ -10893,7 +10893,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "322faa05-dbb2-405e-9faa-0485d2fb1710")
 			(effects
@@ -10950,8 +10950,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10960,8 +10960,8 @@
 			(uuid "54e09332-b3d3-4496-8e9b-80c38147b65b")
 		)
 		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10970,8 +10970,8 @@
 			(uuid "6c04f699-04f7-47d4-a150-47687ab85985")
 		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -10981,8 +10981,8 @@
 			(uuid "92f82d0b-b215-4e75-926c-ee6c54acf208")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -11004,7 +11004,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "/VSYS")
@@ -11013,7 +11013,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -11021,7 +11021,7 @@
 			(uuid "3896e679-b808-4852-9900-e6b7d125161d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11320,14 +11320,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "944d8e8b-d193-4792-b388-0335d997b25e")
 		(at 41.3 83.17)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "1ed34929-86ce-474d-98a2-2d4b79afe21c")
 			(effects
@@ -11338,7 +11338,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "f2b4ddcd-a2d2-4c18-9da6-d7d4a3ef3b52")
 			(effects
@@ -11395,8 +11395,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11405,8 +11405,8 @@
 			(uuid "8f6dcd15-b810-4b91-bb1a-7bd2eeef93e6")
 		)
 		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11415,8 +11415,8 @@
 			(uuid "8e027f2d-010e-4265-bc5c-19c9878a318c")
 		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -11426,8 +11426,8 @@
 			(uuid "2e6693f6-7ef8-4f4f-af53-3f86fcfa52ff")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -11449,7 +11449,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "/CHG_IN")
@@ -11458,7 +11458,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -11466,7 +11466,7 @@
 			(uuid "c447fea4-7b19-452f-905b-c4860be757fb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11636,14 +11636,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "99217622-d3b6-4c25-9323-a03bc526e6c5")
 		(at 35.65 86.52)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "fb2287b1-44e4-43be-80dc-a0bc389116cd")
 			(effects
@@ -11654,7 +11654,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "f1b3545c-9daf-4534-95dc-5acc3772dc49")
 			(effects
@@ -11711,8 +11711,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11721,8 +11721,8 @@
 			(uuid "f5e400ca-128f-4a12-a7a0-d00ff68017a0")
 		)
 		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11731,8 +11731,8 @@
 			(uuid "e9aac1d7-ff5d-43d2-90f3-4a5a0e27791e")
 		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -11742,8 +11742,8 @@
 			(uuid "f560f77a-92f1-44b7-975c-0b21bc39dddc")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -11765,7 +11765,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "Net-(U4-PMID)")
@@ -11774,7 +11774,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -11782,7 +11782,7 @@
 			(uuid "867e64c0-5299-4e3b-a51d-9b64da7db608")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13937,14 +13937,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "c3bb4b36-7d4f-45b1-b974-3e2440d42aa2")
 		(at 41.3 89.87)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C17"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "3bf46c53-05b9-441e-99ff-853cafd050fd")
 			(effects
@@ -13955,7 +13955,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "cf8c3f99-fda0-4b20-a607-26c85c89ab92")
 			(effects
@@ -14012,8 +14012,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -14022,8 +14022,8 @@
 			(uuid "7da93074-6e3c-4629-8451-cc744eb84560")
 		)
 		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -14032,8 +14032,8 @@
 			(uuid "2429f36a-db87-496d-a58f-fcf7e0c6197b")
 		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -14043,8 +14043,8 @@
 			(uuid "28b496c7-6f82-47b1-97df-f8de097918c6")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -14066,7 +14066,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "/VSYS")
@@ -14075,7 +14075,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -14083,7 +14083,7 @@
 			(uuid "7f63a0e2-8498-4887-91cc-3ce975caeb90")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15478,14 +15478,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "cb18a475-d514-4b34-b982-24ec0397812c")
 		(at 125 69.52)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "2fd4bb97-df78-42ca-8894-1afe1353b1e5")
 			(effects
@@ -15496,7 +15496,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "7901ad69-8a8f-49d4-bbb9-79850750730e")
 			(effects
@@ -15553,8 +15553,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -15563,8 +15563,8 @@
 			(uuid "0da49ca4-fb3f-4de5-93e9-82e9777be9c4")
 		)
 		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -15573,8 +15573,8 @@
 			(uuid "fab3816a-9dcd-4c71-8009-a797875f6c4d")
 		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -15584,8 +15584,8 @@
 			(uuid "ffbaa61e-b6a7-4527-90bf-1e45a4a53634")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -15607,7 +15607,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "+5V")
@@ -15616,7 +15616,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -15624,7 +15624,7 @@
 			(uuid "372ae0dc-7e4a-419e-88e6-98224dd974e5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17519,14 +17519,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_2220_5750Metric"
 		(layer "F.Cu")
 		(uuid "d67d909d-d607-4064-a285-aac9a6f76d5e")
 		(at 125 72.87)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 2220 (5750 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.85 0)
+			(at 0 -3.65 0)
 			(layer "F.SilkS")
 			(uuid "978a18a7-815f-4c08-a9b5-2c1b0c88f5ea")
 			(effects
@@ -17537,7 +17537,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.85 0)
+			(at 0 3.65 0)
 			(layer "F.Fab")
 			(uuid "81d1688b-cab2-493d-b475-8765f12463da")
 			(effects
@@ -17594,18 +17594,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b623ac39-b3d5-467b-89b3-ef9022950925")
-		)
-		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -1.415748 -2.61)
+			(end 1.415748 -2.61)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -17613,9 +17603,19 @@
 			(layer "F.SilkS")
 			(uuid "36689ce9-5825-438f-9494-0fb49ac184fa")
 		)
+		(fp_line
+			(start -1.415748 2.61)
+			(end 1.415748 2.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b623ac39-b3d5-467b-89b3-ef9022950925")
+		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -3.7 -2.95)
+			(end 3.7 2.95)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -17625,8 +17625,8 @@
 			(uuid "add99283-e35c-4623-8254-0891e38d0ec9")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -2.85 -2.5)
+			(end 2.85 2.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -17641,31 +17641,31 @@
 			(uuid "0d6a86b2-67e5-40f4-bba2-767c1def6887")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.475 0)
-			(size 1.15 1.8)
+			(at -2.55 0)
+			(size 1.8 5.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.217391)
+			(roundrect_rratio 0.138889)
 			(net "/VSYS")
 			(pintype "passive")
 			(uuid "9c28defe-f1be-4421-9ff9-6ad1c95ac438")
 		)
 		(pad "2" smd roundrect
-			(at 1.475 0)
-			(size 1.15 1.8)
+			(at 2.55 0)
+			(size 1.8 5.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.217391)
+			(roundrect_rratio 0.138889)
 			(net "GND")
 			(pintype "passive")
 			(uuid "8d27db2d-4281-442a-8af2-a215c3643327")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2220_5750Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18743,14 +18743,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "e7becfcf-211c-4282-991a-19c5fd9ab346")
 		(at 41.3 86.52)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C16"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "29c11e6e-0650-4d6f-824b-7fb255a8c4c9")
 			(effects
@@ -18761,7 +18761,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "f4002e89-31c2-41a0-ab7b-3776eaf1f8a1")
 			(effects
@@ -18818,8 +18818,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18828,8 +18828,8 @@
 			(uuid "527ae751-2320-41db-956d-f60f1114a9f4")
 		)
 		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18838,8 +18838,8 @@
 			(uuid "34e5abd6-8858-4380-bcf2-1e2de1ea6f15")
 		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -18849,8 +18849,8 @@
 			(uuid "2513fc03-aabd-4969-b666-99209440be77")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -18872,7 +18872,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "/VSYS")
@@ -18881,7 +18881,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -18889,7 +18889,7 @@
 			(uuid "6b91fec6-846a-4380-ba07-0fb8b67ea620")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19868,14 +19868,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric"
+	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "f3a8e2b2-3100-4ac0-98ec-628cb1d5c285")
 		(at 35.65 89.87)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 -1.85 0)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "42957954-6e4c-4024-bb22-d0a68aeb3de5")
 			(effects
@@ -19886,7 +19886,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 0 1.85 0)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "1482b1d0-e911-4544-9535-023e2bbec40f")
 			(effects
@@ -19943,18 +19943,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "70c1e67e-e890-41d1-b888-4ffcd457db6f")
-		)
-		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
+			(start -0.711252 -1.36)
+			(end 0.711252 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -19962,9 +19952,19 @@
 			(layer "F.SilkS")
 			(uuid "06798d32-9772-4b6c-982b-c28992638090")
 		)
+		(fp_line
+			(start -0.711252 1.36)
+			(end 0.711252 1.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "70c1e67e-e890-41d1-b888-4ffcd457db6f")
+		)
 		(fp_rect
-			(start -2.3 -1.15)
-			(end 2.3 1.15)
+			(start -2.3 -1.6)
+			(end 2.3 1.6)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -19974,8 +19974,8 @@
 			(uuid "fb4461e6-40a4-48f3-9347-161b082d8cc7")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1.6 -1.25)
+			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -19997,7 +19997,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "Net-(U4-PMID)")
@@ -20006,7 +20006,7 @@
 		)
 		(pad "2" smd roundrect
 			(at 1.475 0)
-			(size 1.15 1.8)
+			(size 1.15 2.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
@@ -20014,7 +20014,7 @@
 			(uuid "0bccf4cd-abf6-443b-bc81-29e3143c0b8f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20778,6 +20778,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005a793e9f")
 		(at 108.37 48.77 -90)
@@ -21571,18 +21572,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d4c39290-1388-499e-abdc-d2c7dce5190a")
-	)
-	(gr_text "Extend PCB edge 0.5mm if using SMT header"
-		(at 103 42.5 0)
-		(layer "Dwgs.User")
-		(uuid "5655325a-c0de-4b05-aadb-72ac1902d527")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
 	)
 	(gr_text "PoE"
 		(at 161.5 53.64 0)
