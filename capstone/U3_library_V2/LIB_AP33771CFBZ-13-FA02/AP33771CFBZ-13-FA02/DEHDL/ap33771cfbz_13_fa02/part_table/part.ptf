@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP33771CFBZ_13_FA02'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP33771CFBZ-13-FA02" (!) = "", "SON40P300X300X80-15N-D", "Small Outline No-lead", "", "", "USB, Type-C Controller PMIC 2.75V ~ 3.25V, 3.3V ~ 5.33V, 4.37V ~ 31V -40C ~ 85C (TA) W-DFN3030-14 (Type A1)", "https://www.diodes.com/datasheet/download/AP33771C.pdf", "0.8 mm"
+END_PART
+
+END.

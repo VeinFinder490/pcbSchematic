@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AP33771CFBZ-13-FA02"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2026-01-15-08:37:52)
+    (mountForm default
+        (footprintRef "SON40P300X300X80-15N-D")
+        (spec "System")
+    )
+)

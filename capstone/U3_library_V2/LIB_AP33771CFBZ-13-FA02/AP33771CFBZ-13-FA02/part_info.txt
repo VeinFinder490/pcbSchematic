@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP33771CFBZ-13-FA02
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=15
+Version=1.1
+Released=2026-01-15 08:37:52
+Downloaded=2026-11-27 05:23:49
+3D=Y

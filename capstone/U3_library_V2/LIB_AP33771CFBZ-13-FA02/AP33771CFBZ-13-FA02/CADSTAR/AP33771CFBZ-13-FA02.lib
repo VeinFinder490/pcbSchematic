@@ -1,0 +1,16 @@
+.AP33771CFBZ-13-FA02 :1 ;USB, Type-C Controller PMIC 2.75V ~ 3.25V, 3.3V ~ 5.33V, 4.37V ~ 31V -40C ~ 85C (TA) W-DFN3030-14 (Type A1)
+SON40P300X300X80-15N-D
+*STM IC
+*NGS
+*PLB 1="VOUT" 2="PWR_EN" 3="VCC" 4="ISENP" 5="GND_1" 6="FLIP" 7="LED" 8="VSEL" 9="ISEL" 10="CC2" 11="CC1" 12="DN" 13="DP" 14="V5V" 15="GND_2"
+*MXP 15
+*DFN AP33771CFBZ-13-FA02
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AP33771CFBZ-13-FA02)
+~!Link Datasheet (https://www.diodes.com/datasheet/download/AP33771C.pdf)
+~!Height (0.8mm)
+~!3D_Model (AP33771CFBZ-13-FA02)
+AP33771CFBZ-13-FA02
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

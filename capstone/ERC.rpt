@@ -1,14 +1,10 @@
-ERC report (2026-11-26T23:47:38, Encoding UTF8)
+ERC report (2026-11-27T00:58:54, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(6350 mils, 2050 mils): Symbol U1 Pin 1 [EN, Power input, Line]
-[pin_to_pin]: Pins of type Output and Power output are connected
-    ; error
-    @(6650 mils, 5050 mils): Symbol U4 Pin 9 [BAT, Output, Line]
-    @(8750 mils, 4950 mils): Symbol #FLG07 Pin 1 [Power output, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(7750 mils, 1850 mils): Symbol U1 Pin 7 [BOOT, Power input, Line]
@@ -18,24 +14,10 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(7750 mils, 2550 mils): Symbol U1 Pin 2 [FB, Power input, Line]
-[pin_not_connected]: Pin not connected
+[pin_to_pin]: Pins of type Output and Power output are connected
     ; error
-    @(12150 mils, 4350 mils): Symbol R11 Pin 1 [Passive, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(12550 mils, 4300 mils): Symbol U3 Pin 22 [Reserved, Unspecified, Line]
-[pin_not_connected]: Pin not connected
-    ; error
-    @(14450 mils, 3700 mils): Symbol U3 Pin 11 [GND, Power input, Line]
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
-    ; error
-    @(14450 mils, 3700 mils): Symbol U3 Pin 11 [GND, Power input, Line]
-[pin_not_driven]: Input pin not driven by any Output pins
-    ; error
-    @(14750 mils, 1500 mils): Symbol Q1 Pin 4 [G, Input, Line]
-[pin_not_driven]: Input pin not driven by any Output pins
-    ; error
-    @(15400 mils, 1500 mils): Symbol Q3 Pin 4 [G, Input, Line]
+    @(12850 mils, 5050 mils): Symbol U4 Pin 9 [BAT, Output, Line]
+    @(14950 mils, 4950 mils): Symbol #FLG07 Pin 1 [Power output, Line]
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(900 mils, 3350 mils): Label 'GPIO26'
@@ -45,66 +27,8 @@ Report includes: Errors, Warnings, Exclusions
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(3600 mils, 3450 mils): Label 'GPIO21'
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(5550 mils, 4650 mils): Horizontal Wire, length 100 mils
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(6850 mils, 4450 mils): Vertical Wire, length 50 mils
-[footprint_link_issues]: The current configuration does not include the footprint library 'onnector_JST'
-    ; warning
-    @(8100 mils, 4750 mils): Symbol J5 [Conn_01x02_Pin]
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(12550 mils, 4300 mils): Horizontal Wire, length 400 mils
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(12550 mils, 2200 mils): Symbol U3 Pin 1 [LDO_3V3, Unspecified, Line]
-    @(11900 mils, 2200 mils): Symbol C32 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(12550 mils, 2300 mils): Symbol U3 Pin 4 [LDO_1V5, Unspecified, Line]
-    @(12250 mils, 2300 mils): Symbol C33 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(12550 mils, 3100 mils): Symbol U3 Pin 30 [NC, Unspecified, Line]
-    @(12350 mils, 3500 mils): Symbol R13 Pin 1 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(12550 mils, 4400 mils): Symbol U3 Pin 23 [Reserved, Unspecified, Line]
-    @(12450 mils, 4400 mils): Symbol R12 Pin 1 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Input are connected
-    ; warning
-    @(14450 mils, 1500 mils): Symbol U3 Pin 21 [GATE_VBUS, Unspecified, Line]
-    @(14750 mils, 1500 mils): Symbol Q1 Pin 4 [G, Input, Line]
-[pin_to_pin]: Pins of type Unspecified and Input are connected
-    ; warning
-    @(14450 mils, 1600 mils): Symbol U3 Pin 20 [GATE_VSYS, Unspecified, Line]
-    @(15400 mils, 1500 mils): Symbol Q3 Pin 4 [G, Input, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(14450 mils, 2400 mils): Symbol U3 Pin 2 [ADCIN1, Unspecified, Line]
-    @(10850 mils, 5650 mils): Symbol R18 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(14450 mils, 2500 mils): Symbol U3 Pin 3 [ADCIN2, Unspecified, Line]
-    @(11850 mils, 5650 mils): Symbol R17 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(14450 mils, 2600 mils): Symbol U3 Pin 5 [ADCIN3, Unspecified, Line]
-    @(12850 mils, 5650 mils): Symbol R19 Pin 2 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(14450 mils, 2700 mils): Symbol U3 Pin 7 [ADCIN4, Unspecified, Line]
-    @(13850 mils, 5650 mils): Symbol R21 Pin 2 [Passive, Line]
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(14450 mils, 3700 mils): Horizontal Wire, length 300 mils
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(14750 mils, 3750 mils): Vertical Wire, length 50 mils
 
- ** ERC messages: 30  Errors 11  Warnings 19
+ ** ERC messages: 8  Errors 5  Warnings 3
 
  ** Ignored checks:
     - Global label only appears once in the schematic

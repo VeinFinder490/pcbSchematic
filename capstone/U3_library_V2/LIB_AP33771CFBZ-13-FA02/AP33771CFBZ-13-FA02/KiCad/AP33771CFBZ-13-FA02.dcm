@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP33771CFBZ-13-FA02
+D USB, Type-C Controller PMIC 2.75V ~ 3.25V, 3.3V ~ 5.33V, 4.37V ~ 31V -40C ~ 85C (TA) W-DFN3030-14 (Type A1)
+K
+F https://www.diodes.com/datasheet/download/AP33771C.pdf
+$ENDCMP
+#
+#End Doc Library

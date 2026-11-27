@@ -3,4 +3,5 @@
 	(lib (name "2026-11-15_19-17-42") (type "KiCad") (uri "${KIPRJMOD}/KiCADv6/2026-11-15_19-17-42.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS25730") (type "KiCad") (uri "${KIPRJMOD}/KiCADv6/2026-11-17_21-32-20.kicad_sym") (options "") (descr ""))
 	(lib (name "NSI45090") (type "KiCad") (uri "${KIPRJMOD}/NSI45090JDT4G/NSI45090JDT4G.kicad_sym") (options "") (descr ""))
+	(lib (name "AP33771CFBZ-13-FA02") (type "KiCad") (uri "${KIPRJMOD}/U3_library_V2/LIB_AP33771CFBZ-13-FA02/AP33771CFBZ-13-FA02/KiCad/AP33771CFBZ-13-FA02.kicad_sym") (options "") (descr ""))
 )
